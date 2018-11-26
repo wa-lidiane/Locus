@@ -1,0 +1,6 @@
+CREATE DATABASE locus;
+CREATE TABLE empresa(
+  id_empresa INT NOT NULL AUTO_INCREMENT,
+  nome VARCHAR(20) NOT NULL,
+  PRIMARY KEY(id_filial)
+);
